@@ -1,0 +1,32 @@
+BTree-dd
+========
+
+BTree-dd is a lightwheight C++ template for managing B-Tree's data structures.
+It is also known as "binary trees" or "red-black trees" (i.e., rb_tree) on
+any CXX working fine.
+
+Regardless of your needs, if you want to deal with large amounts of
+information getters and setters in the blink of an eye, maybe BTrees are
+better options than just traditional doubly-linked lists.
+
+Think on it as a simplified but written from scratch template which is much
+easier to use than rb_tree. More over, if you read the following line from
+/usr/include/path/to/cpp/headers/bits/stl_tree.h:
+
+	enum _Rb_tree_color { _S_red = false, _S_black = true };
+
+You might be some confused about assigning boolean values to two colors,
+which in turn are mapped to the number of the children branches, and
+perhaps you will not be ever able to understand the data manipulation
+algorithms.
+
+That's where we introduce our own implementation of rb_trees (or should we
+name them as cyan-white trees?), much cleaner and self-explained methods
+and classes than the previous templates.
+
+Look at the test/ directory for use cases and do "make check" on it to
+get the unit tests results and summary.
+
+There's a lot of work to do, so feedback is welcome off course.
+
+Hope you enjoy!!!

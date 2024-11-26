@@ -1,0 +1,10 @@
+Installation
+------------
+
+In order to install this template using the GNU Build System, open a terminal,
+chdir to wherever the xzipped-tarball is and type the following commands:
+ 
+	username@host: dir $ ./configure
+	username@host: dir $ make
+	[ become superuser if needed ]
+	username@host: dir $ make install-strip
