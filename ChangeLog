@@ -1,3 +1,19 @@
+2025-03-09  Daniel Dwek  <dwekdaniel@gmail.com>
+
+	0.2.0 Release
+	* The method "init()" was created to be called from the constructor
+	  as well as any other object, especially for btrees destroyed at
+	  a first stage and being populated with new data with no need to
+	  destroy the former object or use arrays of objects.
+
+	* Methods "add_branch()", "get_leaf()" and "clear()" were rewritten
+	  from scratch in order to get a cleaner, simplified and memory-safer
+	  version of them.
+
+	* Unit tests under "test/" subdirectory were improved to demonstrate
+	  the right working of this template and how to interact with this
+	  API.
+
 2024-11-26  Daniel Dwek  <dwekdaniel@gmail.com>
 
 	0.1.0 Release

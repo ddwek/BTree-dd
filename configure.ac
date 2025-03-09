@@ -1,4 +1,4 @@
-AC_INIT([BTree-dd], [0.1.0], [dwekdaniel@gmail.com])
+AC_INIT([BTree-dd], [0.2.0], [dwekdaniel@gmail.com])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 LT_INIT
 AM_PROG_AR
